@@ -4,6 +4,7 @@ import Alert from './components/Alert';
 import ExpenseForm from './components/ExpenseForm';
 import ExpenseList from './components/ExpenseList';
 import uuid from 'uuid/v4';
+import Footer from './components/Footer';
 
 // const initialExpense = [
 //   {
@@ -146,6 +147,7 @@ function App() {
           }, 0)}
        </span>
      </h1>
+     <Footer />
    </>
   );
 }
